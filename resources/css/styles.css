@@ -894,7 +894,7 @@ aside {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .home__featured_video {
@@ -919,7 +919,7 @@ aside {
 }
 
 .home__featured_video_header--colored{
-    background: #DBA834;
+    background: #ff0000;
 }
 
 .home_video__body{
@@ -928,10 +928,10 @@ aside {
 }
 
 .home_video__body--colored{
-    background: #DBA834;
+    background: #ff0000;
 }
 
-.home_video__body img {
+.home_video__body img, .home_video__body iframe {
     width: 100%;
 }
 
