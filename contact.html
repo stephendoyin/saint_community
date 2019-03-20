@@ -286,41 +286,39 @@
                 </p>
                 <form action="https://formspree.io/stevedoyin@gmail.com" name="church_form" method="POST" />                    <div class="contact_modal__input_container">
                         <label for="subject" class="contact_modal__sub_title">Subject</label>
-                        <input type="text" id="subject" name="subject" class="contact_modal__input" placeholder="Enter a Subject">
+                        <input type="text" required id="subject" name="subject" class="contact_modal__input" placeholder="Enter a Subject">
                     </div>
 
                     <div class="contact_modal__input_container">
                         <label for="message" class="contact_modal__sub_title">Message</label>
-                        <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+                        <textarea name="message" required placeholder="Message" id="message" cols="30" rows="10"></textarea>
                     </div>
 
                     <div class="contact_modal__input_container">
                         <label for="phone" class="contact_modal__sub_title">
                             Email
                         </label>
-                        <input name="email" class="contact_modal__input" type="email" id="phone" placeholder="Enter Phone Number">
+                        <input name="email" required class="contact_modal__input" type="email" id="phone" placeholder="Enter Phone Number">
                     </div>
 
                     <div class="contact_modal__input_container">
                         <label for="phone" class="contact_modal__sub_title">Phone Number</label>
-                        <input name="phone" class="contact_modal__input" type="text" id="phone" placeholder="Enter Phone Number">
+                        <input name="phone" required class="contact_modal__input" type="text" id="phone" placeholder="Enter Phone Number">
                     </div>
 
                     <div class="contact_modal__input_container">
 
                         <label for="phone" class="contact_modal__sub_title">Your name</label>
-                        <input type="text" name="first-name" eid="first_name" class="contact_modal__input" placeholder="First Name">
-                        <input type="text" name="last-name" id="last_name" class="contact_modal__input" placeholder="Last Name">
+                        <input type="text" required name="first-name" id="first_name" class="contact_modal__input" placeholder="First Name">
+                        <br>
+                        <input type="text" required name="last-name" id="last_name" class="contact_modal__input" placeholder="Last Name">
 
                     </div>
 
                     <div class="contact_modal__input_container">
                         <input class="modal__send_btn" type="submit" value="SEND">
                     </div>
-                    <input type="hidden" name="_subject" value="Contact form submitted">
-                    <input type="hidden" name="_after" value="https://myhomepage.net/">
-                    <input type="hidden" name="_honeypot" value="">
-                    <input type="hidden" name="_confirmation" value="">
+
                 </form>
             </div>
         </div>

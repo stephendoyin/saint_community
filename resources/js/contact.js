@@ -6,17 +6,22 @@ let contactModal = document.querySelector(".contact_modal");
 
 modalTriggerBtn.addEventListener("click", function(e){
     e.preventDefault();
+    document.body.classList.add("body");
     toggleModal();
 });
 
 
 closeBtn.addEventListener("click", function(){
     toggleModal();
+    document.body.classList.remove("body");
+
 });
 
 window.addEventListener("click", function(e){
     if(e.target === contactModal)
         toggleModal();
+        document.body.classList.remove("body");
+
 })
 
 function toggleModal() {

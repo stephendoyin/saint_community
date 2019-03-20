@@ -1866,6 +1866,7 @@ section.featured__videos {
 input.modal__send_btn {
     background: #25813C;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 strong {
@@ -1953,7 +1954,7 @@ label.contact_modal__sub_title {
     background: #131313;
     border-radius: 2px;
     position: absolute;
-    top: 200px;
+    top: 100px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1975,8 +1976,8 @@ label.contact_modal__sub_title {
     /* color: #FFFFFF; */
 }
 
-#first_name {
-    margin-bottom: 14px;
+.contact_modal__sub_title #last_name {
+    margin-top: 14px;
 }
 
 .modal_contact__close {
@@ -2763,4 +2764,10 @@ label.contact_modal__sub_title {
     to {
         transform: scale(0.75) translateX(0);
     }
+}
+
+
+.rove{
+    height: 100vh;
+    overflow: hidden;
 }
