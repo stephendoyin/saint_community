@@ -1,5 +1,5 @@
 
-let countDownDate = new Date("April 20, 2019 15:37:255").getTime();
+let countDownDate = new Date("April 18, 2019 17:30:0").getTime();
 
 
 
