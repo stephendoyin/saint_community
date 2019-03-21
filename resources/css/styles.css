@@ -172,8 +172,7 @@ aside {
 
 @media only screen and (max-width: 550px) {
     .header_hero__main_text {
-        font-size: 140%;
-        width: 75%;
+        font-size: 116%;
     }
 }
 
@@ -371,8 +370,8 @@ aside {
 
 .menu__close{
     position: absolute;
-    top: 30px;
-    left: 38px;
+    top: 39px;
+    right: 38px;
     z-index: 44;
     cursor: pointer;
 }

@@ -6,6 +6,8 @@ $(".menu__close").click(function(){
     menuModal.animate({left: "-100%"});
     document.body.style.height = "auto";
     document.body.style.overflow = "auto";
+    document.querySelector(".menu_icon").style.visibility = "visible";
+
 })
 
 $(window).click(function(e) {
@@ -13,6 +15,7 @@ $(window).click(function(e) {
         menuModal.animate({left: "-100%"});
         document.body.style.height = "auto";
     document.body.style.overflow = "auto";
+    document.querySelector(".menu_icon").style.visibility = "visible";
     }
 });
 
@@ -20,6 +23,7 @@ menuIcon.click(function(){
     menuModal.animate({left: "0%"});
     document.body.style.height = "100vh";
     document.body.style.overflow = "hidden";
+    document.querySelector(".menu_icon").style.visibility = "hidden";
 });
 
 function colorRed() {
