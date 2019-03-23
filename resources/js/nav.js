@@ -26,15 +26,15 @@ menuIcon.click(function(){
     // document.querySelector(".menu_icon").style.visibility = "hidden";
 });
 
-// function colorRed() {
+function colorRed() {
 
-//     for(let i = 0; i < document.querySelectorAll(".resp_menu__link--active:link path").length; i++){
-//         document.querySelectorAll(".resp_menu__link--active:link path")[i].setAttribute("fill", "#f00");
-//         if (document.querySelectorAll(".resp_menu__link--active:link polygon").length > 0){
-//             document.querySelectorAll(".resp_menu__link--active:link polygon")[i].setAttribute("fill", "#f00");
-//         }
-//     }
+    for(let i = 0; i < document.querySelectorAll(".resp_menu__link--active:link path").length; i++){
+        document.querySelectorAll(".resp_menu__link--active:link path")[i].setAttribute("fill", "gold");
+        if (document.querySelectorAll(".resp_menu__link--active:link polygon").length > 0){
+            document.querySelectorAll(".resp_menu__link--active:link polygon")[i].setAttribute("fill", "gold");
+        }
+    }
     
-// }
+}
 
-// colorRed();
+colorRed();
