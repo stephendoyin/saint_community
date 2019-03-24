@@ -183,7 +183,7 @@ aside {
     line-height: 30px;
     font-size: 16px;
     color: #C4C4C4;
-    width: 66%;
+    width: 80%;
 }
 
 status{
@@ -383,7 +383,7 @@ status{
     /* background: rgba; */
     width: 300px;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)), url(../images/red-wallpaper-3.jpg);
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)), url(../images/wal_pa.png);
     background-position: 0% 0%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -401,7 +401,7 @@ status{
     color: white;
     display: block;
     width: 100%;
-    border-bottom: 1px solid #4f4f4f;
+    /* border-bottom: 1px solid #4f4f4f; */
     height: 50px;
     display: flex;
     font-size: 16px;
@@ -1382,7 +1382,7 @@ section.featured__videos {
 /* styles for about us page */
 
 .header_hero--about_us {
-    height: 379px;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/about_hero.jpg);
     /* background-attachment: fixed; */
     background-position: 0% 0%;
@@ -1510,7 +1510,7 @@ section.featured__videos {
 /* media page css rules */
 
 .header_hero--partnership {
-    height: 381px;
+    height: 100vh;
     background: linear-gradient(rgba(184, 0, 0, .5), rgba(184, 0, 0, .5)), url(../images/media_hero.jpg);
     background-position: 0% 0%;
     mix-blend-mode: multiply;
@@ -1519,7 +1519,7 @@ section.featured__videos {
 }
 
 .header_hero--media {
-    height: 440px;
+    height: 100vh;
     background: linear-gradient(rgba(184, 0, 0, .5), rgba(184, 0, 0, .5)), url(../images/media_hero.jpeg);
     background-position: 0% 84%;
     mix-blend-mode: multiply;
@@ -1838,7 +1838,7 @@ section.featured__videos {
 /* styles for contact us page */
 
 .header_hero--contact {
-    height: 300px;
+    height: 100vh;
     background: linear-gradient(rgba(225, 0, 0, .2), rgba(225, 0, 0, .2)), url(../images/contact_hero.jpg);
     /* background-attachment: fixed; */
     background-position: 0% 0%;
@@ -2066,7 +2066,7 @@ label.contact_modal__sub_title {
 /* style rules for location  */
 
 .header_hero--location {
-    height: 381px;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0,.4)), url(../images/partner.jpeg);
     background-position: 72% 50%;
     background-size: cover;
@@ -2074,7 +2074,7 @@ label.contact_modal__sub_title {
 }
 
 .header_hero--program {
-    height: 401px;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/program--hero.jpeg);
     background-position: 0% 0%;
     background-size: cover;
