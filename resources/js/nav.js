@@ -29,9 +29,9 @@ menuIcon.click(function(){
 function colorRed() {
 
     for(let i = 0; i < document.querySelectorAll(".resp_menu__link--active:link path").length; i++){
-        document.querySelectorAll(".resp_menu__link--active:link path")[i].setAttribute("fill", "gold");
+        document.querySelectorAll(".resp_menu__link--active:link path")[i].setAttribute("fill", "#dcbd56");
         if (document.querySelectorAll(".resp_menu__link--active:link polygon").length > 0){
-            document.querySelectorAll(".resp_menu__link--active:link polygon")[i].setAttribute("fill", "gold");
+            document.querySelectorAll(".resp_menu__link--active:link polygon")[i].setAttribute("fill", "#dcbd56");
         }
     }
     

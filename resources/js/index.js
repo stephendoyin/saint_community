@@ -3,7 +3,10 @@
 $(document).ready(function () {
     let owl = $(".owl-one");
     owl.owlCarousel({
-        items: 1
+        items: 1,
+        autoPlay: true,
+        autoplayHoverPause: true,
+        loop: true
     });
 
     $('.home__next').click(function () {
@@ -18,3 +21,17 @@ $(document).ready(function () {
 
 
 
+$(document).ready(function () {
+    let owl = $(".owl_three");
+    owl.owlCarousel({
+        items: 1,
+        autoPlay: true,
+        autoplayHoverPause: true,
+        loop: true
+    });
+
+    
+
+
+    
+});
