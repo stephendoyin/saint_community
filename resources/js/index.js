@@ -5,8 +5,9 @@ $(document).ready(function () {
     owl.owlCarousel({
         items: 1,
         autoPlay: true,
-        autoplayHoverPause: true,
-        loop: true
+        loop: true,
+        dots: true,
+        dotsEach: true
     });
 
     $('.home__next').click(function () {

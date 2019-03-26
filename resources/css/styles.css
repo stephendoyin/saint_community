@@ -186,8 +186,9 @@ aside {
 }
 
 .nav__link--active:link, .nav__link--active:visited {
-    color: red;
-    border-bottom: 1.5px solid red;
+    color: #bc0b0b;
+    border-bottom: 1.5px solid #bc0b0b;
+    font-weight: bold;
 }
 
 
@@ -642,6 +643,15 @@ status{
     }
 }
 
+.home_info__box_two{
+    overflow: hidden;
+}
+
+.home_info__box_two img{
+    width: 100%;
+    height: 100%;
+}
+
 .home_info__title {
     font-family: Montserrat;
     font-style: normal;
@@ -759,32 +769,36 @@ section{
 
 .home_programs_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
+
 .home_programs__item:first-child{
-    width: 212px;
+    width: 250px;
 }
 
 .home_programs__item:nth-child(2){
-    width: 500px;
-    margin: 0 2%;
+    width: 450px;
+    margin: 0 6% 0 4%;
 }
 
-@media only screen and (max-width: 1290px){
+@media only screen and (max-width: 1300px){
+    .home_programs_container{
+        flex-wrap: wrap;
+    }
     .home_programs__item:nth-child(2){
-        width: calc(100% - 262px);
-        margin: 0;
+        width: calc(100% - 309px);
+        margin-right: 0;
     }
 }
 
 .home_programs__item:nth-child(3){
-    width: 400px;
+    width: 523px;
 }
 
-@media only screen and (max-width: 1290px){
+@media only screen and (max-width: 1300px){
     .home_programs__item:nth-child(3){
         margin-top: 40px;
     }
@@ -799,6 +813,7 @@ section{
     }
     .home_programs__item:nth-child(2){
         margin-top: 40px;
+        margin-left: 0;
     }
 }
 
@@ -1454,8 +1469,8 @@ section.featured__videos {
 /* styles for about us page */
 
 .header_hero--about_us {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/about_img.jpg);
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/about_img.jpg);
     /* background-attachment: fixed; */
     background-position: 0% 0%;
     background-size: cover;
@@ -1589,7 +1604,7 @@ section.featured__videos {
 
 .header_hero--partnership {
     height: 550px;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/partnership.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/partnership.jpg);
     background-position: 50% 0%;
     mix-blend-mode: multiply;
     background-size: cover;
@@ -1781,6 +1796,7 @@ section.featured__videos {
 
 .partner_content_img {
     width: 40%;
+
 }
 
 .partner_text_content {
@@ -1792,7 +1808,8 @@ section.featured__videos {
 }
 
 .partner_content_img img {
-    border: 6px solid rgba(214, 15, 15, 1);
+    border-top: 6px solid rgba(214, 15, 15, 1);
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
 }
@@ -1917,7 +1934,7 @@ section.featured__videos {
 
 .header_hero--contact {
     height: 550px;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/contact.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .86), rgba(0, 0, 0, .86)), url(../images/contact.jpg);
     /* background-attachment: fixed; */
     background-position: 0% 0%;
     background-size: cover;
@@ -2145,7 +2162,7 @@ label.contact_modal__sub_title {
 
 .header_hero--location {
     height: 550px;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0,.6)), url(../images/location.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0,.8)), url(../images/location.jpg);
     background-position: 72% 50%;
     background-size: cover;
     position: relative;
@@ -2153,7 +2170,7 @@ label.contact_modal__sub_title {
 
 .header_hero--program {
     height: 550px;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/events.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/events.jpg);
     background-position: 0% 0%;
     background-size: cover;
     position: relative;
@@ -2538,6 +2555,7 @@ label.contact_modal__sub_title {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-top: 16px;
 }
 
 .cards__container {
