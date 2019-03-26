@@ -4,10 +4,11 @@ $(document).ready(function () {
     let owl = $(".owl-one");
     owl.owlCarousel({
         items: 1,
-        autoPlay: true,
+        autoplay: true,
         loop: true,
         dots: true,
-        dotsEach: true
+        dotsEach: true,
+        autoplayTimeout: 8000
     });
 
     $('.home__next').click(function () {
@@ -26,9 +27,10 @@ $(document).ready(function () {
     let owl = $(".owl_three");
     owl.owlCarousel({
         items: 1,
-        autoPlay: true,
+        autoplay: true,
         autoplayHoverPause: true,
-        loop: true
+        loop: true,
+        autoplayTimeout: 5000
     });
 
     

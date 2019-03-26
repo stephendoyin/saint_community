@@ -2867,3 +2867,27 @@ label.contact_modal__sub_title {
     }
 }
 
+
+.scroll_to_top{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    position: fixed;
+    bottom: 7%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 29;
+}
+
+
+@media only screen and (max-width: 1px) {
+    .main_row {
+        width: 90%;
+        
+    }
+}
